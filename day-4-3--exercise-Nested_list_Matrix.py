@@ -18,6 +18,10 @@ print()
 horizonal = int(position[0])
 vertical = int(position[1])
 
+# Above line of code can also be written thus.
+
+# map[vertical -1][horizonal -1] = 'X'
+
 selected_row = map[vertical -1]
 selected_row[horizonal -1] = 'X'
 print()
